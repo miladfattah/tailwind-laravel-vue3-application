@@ -3,6 +3,7 @@ import store from '../../store'
 import DefaultLayout from '../components/DefaultLayout.vue'
 import Auth from '../components/Auth.vue'
 import Dashboard from '../views/Dashboard.vue'
+import Servues from '../views/Servues.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 
@@ -22,7 +23,11 @@ const routes = [
         name : 'Dashboard' ,
         component : Dashboard
       },
-
+      {
+        path : '/servues' ,
+        name : 'Servues' ,
+        component : Servues
+      },
     ]
   },
 
